@@ -1,0 +1,10 @@
+input types 
+
+text : represent or reserved for storing text  
+suct that name , string and other collection of char .....  
+
+number :
+
+email : 
+
+password : 
