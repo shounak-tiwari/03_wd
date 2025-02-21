@@ -1,0 +1,22 @@
+body{
+    background-image:linear-gradient(to right bottom , darkcyan 50%,blue) ;
+}
+.main{
+    background-color: yellow;
+    height: 200px;
+}
+.inlinediv{
+    background-color: red;
+    height: 200px;
+}
+
+.heading1{
+    background-color: blue;
+    height: 200px;
+}
+
+.spaninline{
+    background-color: greenyellow;
+    height: 500px;
+    overflow: scroll;
+}

@@ -1,0 +1,17 @@
+.main{
+    height: 200px;
+    width: 200px;
+    background-color: steelblue;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+.relative-cls{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}

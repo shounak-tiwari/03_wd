@@ -1,0 +1,19 @@
+.main{
+    background-color: yellow;
+    height: auto;
+    display: flex;
+}
+
+.submain-1{
+        background-color: blue;
+        height: 300px;
+        
+}
+.submain-2{
+    background-color: red;
+    height: 300px;
+}
+.submain-3{
+    background-color: green;
+    height: 300px;
+}
