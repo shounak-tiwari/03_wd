@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+}
+.header-first{
+    height: auto;
+    display: grid;
+    grid-template-columns: 200px repeat(2,1fr);
+    background-color: #10311e;
+    /* background-color: black; */
+    padding: 10px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.brand-name{
+    position: relative;
+   
+}
+.brand-name h1 {
+    color: white;
+    position: absolute;
+    left:100px;
+    top: 20px;
+    font-size: 55px;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.navbar li {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.sec-a{
+    background-color: #10311e;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+
+.Offer-line{
+    position: relative;
+    color: blue;
+    font-size:55px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}   
+
+@keyframes example {
+    0%{
+        color: yellow;
+        left: 250px;
+    }
+    25%{
+        color: red;
+        left: 500px;
+    }
+    50%{
+        color: pink;
+        left: 750px;
+    }
+    75%{
+        color: white;
+        left: 1020px;
+    }
+}
+
+
+
+
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.card-body{
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.card-title{
+    border:2px solid #3B270C ;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #3B270C;
+}

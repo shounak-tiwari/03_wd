@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+}
+.header-first{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 200px repeat(2,1fr);
+    background-color: #10311e;
+    padding: 10px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.brand-name{
+    position: relative;
+   
+}
+.brand-name h1 {
+    color: white;
+    position: absolute;
+    left:100px;
+    top: 20px;
+    font-size: 55px;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.navbar li {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.btn{
+    background-image: linear-gradient(to right,rgb(58, 103, 36) 10%, #10311e 90% );
+    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 9px;
+    font-weight: bolder;
+   /* text-align: center; */
+    /* margin: 5px; */
+    height: 10px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right,rgb(58, 103, 36) 10%, white 90% );
+    font-weight: bolder;
+    color: #10311e ;
+}
+
+.card{
+    border: 2px solid black;
+}
+
+
+ .card-body{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec-1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.card-body{
+    border: 2px solid black;
+}
+
+
+.card:hover img{
+    transition: 5s;
+    background-color: black;
+   transform: scale(1.3);
+}
