@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="userdata">
+        data loading .............
+    </p>
+
+    <button onclick="loaddata()">load data</button>
+
+    <script>
+        function loaddata(){
+            const getdata = sessionStorage.getItem("user");
+           
+            const userdata = JSON.parse(getdata)
+
+            document.getElementById("userdata").innerHTML = `${userdata.name} and ${userdata.age}`
+
+        }
+    </script>
+</body>
+</html>

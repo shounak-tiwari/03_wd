@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser object model v/s document object model</title>
+</head>
+<body>
+    <button ondblclick="run()"> OPEN PAGE OF INSTAGRAM </button>
+    <script>
+        function run(){
+            
+            let resonse = confirm("Be Carefully your instagram get open in main scareen")
+            let age = parseInt (prompt("enter age "))
+            if (resonse ==true & age>18){
+    
+                window.open("https://www.instagram.com" , "_blank")
+            }
+            else{            
+                alert("sorry we can not abble to open try again ")
+            }
+        }
+    </script>
+
+    </body>
+</html>

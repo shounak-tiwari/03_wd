@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- jquary link inside the file -->
+    <script src="./jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- js -->
+     <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $(".main").fadeOut(9000)
+                $(".main2").fadeOut()
+            })
+        })
+     </script>
+</head>
+<body>
+
+    <button id="btn">Fade in/out</button>
+    <div class="main">
+    </div>
+    <div class="main2">
+
+    </div>
+</body>
+</html>

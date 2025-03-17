@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inputfeild" >
+    <p id="result"></p>
+   
+    <script>
+        let regex = /^[a-zA-Z ]+$/
+
+        function Run(params) {
+            let inputdata = document.getElementById("inputfeild").value
+
+            if (inputdata.match(regex)) {
+                document.getElementById("result").innerHTML = "valid"
+            }
+            else{
+                document.getElementById("result").innerHTML = "invalid"
+            }
+
+        }
+        document.getElementById("inputfeild").addEventListener("input",Run);
+
+    </script>
+</body>
+</html>

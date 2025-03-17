@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <label for="">Task : </label>
+        <input type="text" placeholder="e.g Home work" id="taskinput">
+        <button ondblclick="return Addtask()">Add task</button>
+
+    <ul id="tasklist">
+
+    </ul>
+
+
+    <script>
+        function Addtask() {
+            let taskinput = document.getElementById("taskinput").value
+            let tasktext = taskinput.value.trim();
+            let li = document.createElement("li")
+            li.innerHTML = `${taskinput} <button> remove</button> <button> update</button>`
+            let list_item = document.getElementById("tasklist")
+            list_item.appendChild(li)
+            document.getElementById("taskinput").value = " "45
+            
+        }
+    </script>
+</body>
+</html>

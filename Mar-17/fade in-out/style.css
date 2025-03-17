@@ -1,0 +1,13 @@
+.main{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    /* display:none; */
+}
+
+.main2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    /* display:none; */
+}

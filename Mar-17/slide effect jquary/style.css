@@ -1,0 +1,12 @@
+.btn{
+    text-align: center;
+    background-color: #e5eecc;
+    border: 1px solid black;
+
+}
+.pannel{
+    background-color: #e5eecc;
+    /* border: 2px solid black; */
+    display: none;
+
+}

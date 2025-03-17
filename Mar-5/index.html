@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <input type="text"  id="name">
+        <input type="text" id="age">
+        <button type="submit" onclick="SaveData()">subtn</button>
+    </form>
+
+    <a href="page2.html">go to next</a>
+    <script>
+        function SaveData(params) {
+           const user = {
+            name : document.getElementById("name").value,
+            age : document.getElementById("age").value
+            }
+            sessionStorage.setItem("user", JSON.stringify(user));
+        }
+    </script>
+</body>
+</html>
