@@ -1,0 +1,18 @@
+.bg-color{
+    background-color: #054b8c;
+}
+
+.bg-liner-gradint{
+    background-image: linear-gradient(to right, blue 10%, green 90% );
+}
+
+.card{
+    width: 15rem;
+    /* height: 15rem; */
+    /* overflow: hidden; */
+}
+
+.sec-1{
+    /* background-color: #557da1; */
+    padding: 10px;
+}
